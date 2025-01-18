@@ -1,4 +1,5 @@
 .categories__card {
+  padding: 1.2rem 0;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
