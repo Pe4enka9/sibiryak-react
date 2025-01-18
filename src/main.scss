@@ -19,3 +19,21 @@ body {
 .search {
   margin-bottom: .2rem;
 }
+
+.categories {
+  margin-bottom: 3rem;
+}
+
+main a {
+  width: 90%;
+  margin: 0 auto;
+
+  display: block;
+
+  color: $main2;
+
+  font-size: 1.6rem;
+  font-weight: 300;
+
+  text-decoration: none;
+}

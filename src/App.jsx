@@ -10,6 +10,8 @@ export default function App() {
             <main>
                 <Search/>
                 <Categories/>
+
+                <a href="#">Главная</a>
             </main>
         </>
     )

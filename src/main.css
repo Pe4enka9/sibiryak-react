@@ -17,4 +17,18 @@ body {
   margin-bottom: 0.2rem;
 }
 
+.categories {
+  margin-bottom: 3rem;
+}
+
+main a {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  color: #2F80ED;
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=main.css.map */
