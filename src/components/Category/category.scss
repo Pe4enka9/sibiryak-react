@@ -1,0 +1,33 @@
+@import "../../variables";
+
+.categories__card {
+  //padding: 1.2rem 4.8rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  border: .1rem solid $gray;
+
+  cursor: pointer;
+
+  .card__img {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  div {
+    color: $dark;
+
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+
+  &:hover, &.active {
+    border: .3rem solid $accent;
+
+    div {
+      color: $accent;
+    }
+  }
+}

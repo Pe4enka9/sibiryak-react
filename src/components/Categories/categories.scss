@@ -1,0 +1,15 @@
+.categories {
+  background-color: #fff;
+
+  .categories__container {
+    width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    & > * {
+      flex: 1;
+    }
+  }
+}
