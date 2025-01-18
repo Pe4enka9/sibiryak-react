@@ -33,13 +33,31 @@ main > a {
 
 .banners {
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 6rem;
   display: flex;
   flex-wrap: wrap;
   gap: 2.5rem;
 }
 .banners > * {
   flex: 1;
+}
+
+.tabs {
+  margin-bottom: 8rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+.tabs h3 {
+  color: #020303;
+  font-family: "Open Sans", serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+.tabs h3:hover, .tabs h3.active {
+  color: #2F80ED;
 }
 
 /*# sourceMappingURL=main.css.map */

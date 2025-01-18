@@ -21,6 +21,12 @@ export default function App() {
                     <Banner title={'Скидка 20%'} body={'На креветки до 20.09'} link={'#'}
                             linkName={'Узнать подробнее'}/>
                 </div>
+
+                <div className="tabs">
+                    <h3>Новинки</h3>
+                    <h3>Популярные товары</h3>
+                    <h3>Распродажа</h3>
+                </div>
             </main>
         </>
     )

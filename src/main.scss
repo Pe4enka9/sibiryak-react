@@ -40,7 +40,7 @@ main > a {
 
 .banners {
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 6rem;
 
   display: flex;
   flex-wrap: wrap;
@@ -48,5 +48,28 @@ main > a {
 
   & > * {
     flex: 1;
+  }
+}
+
+.tabs {
+  margin-bottom: 8rem;
+
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+
+  h3 {
+    color: $dark;
+
+    font-family: "Open Sans", serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+
+    transition: color .2s;
+    cursor: pointer;
+
+    &:hover, &.active {
+      color: $main2;
+    }
   }
 }
