@@ -1,0 +1,54 @@
+header {
+  background-color: #2F80ED;
+}
+header .header-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-container nav {
+  display: flex;
+}
+header .header-container nav a {
+  padding: 1.2rem 2rem;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+header .header-container nav a:first-child {
+  position: relative;
+}
+header .header-container nav a:first-child::before {
+  width: 1.6rem;
+  height: 1.6rem;
+  display: block;
+  background: url("../../assets/icons/catalog.svg") no-repeat center/cover;
+  content: "";
+  position: absolute;
+  left: -0.5rem;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+header .header-container nav a:last-child {
+  background-color: #C63A22;
+}
+header .header-container nav a.active {
+  background-color: #125DC2;
+}
+header .header-container div {
+  color: #fff;
+  font-family: "Open Sans", serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+header .header-container div a {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=header.css.map */

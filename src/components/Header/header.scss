@@ -1,0 +1,73 @@
+@import "../../variables";
+
+header {
+  background-color: $main2;
+
+  .header-container {
+    width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav {
+      display: flex;
+
+      a {
+        padding: 1.2rem 2rem;
+
+        color: #fff;
+
+        font-size: 1.6rem;
+        font-weight: 700;
+
+        text-decoration: none;
+
+        &:first-child {
+          position: relative;
+
+          &::before {
+            width: 1.6rem;
+            height: 1.6rem;
+
+            display: block;
+
+            background: url("../../assets/icons/catalog.svg") no-repeat center / cover;
+
+            content: '';
+            position: absolute;
+            left: -.5rem;
+            bottom: 50%;
+            transform: translateY(50%);
+          }
+        }
+
+        &:last-child {
+          background-color: $main;
+        }
+
+        &.active {
+          background-color: $activeHeader;
+        }
+      }
+    }
+
+    div {
+      color: #fff;
+
+      font-family: "Open Sans", serif;
+      font-size: 1.6rem;
+      font-weight: 400;
+
+      a {
+        color: #fff;
+
+        font-size: 1.6rem;
+        font-weight: 700;
+
+        text-decoration: none;
+      }
+    }
+  }
+}
