@@ -21,14 +21,25 @@ body {
   margin-bottom: 3rem;
 }
 
-main a {
+main > a {
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 3rem;
   display: block;
   color: #2F80ED;
   font-size: 1.6rem;
   font-weight: 300;
   text-decoration: none;
+}
+
+.banners {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+.banners > * {
+  flex: 1;
 }
 
 /*# sourceMappingURL=main.css.map */

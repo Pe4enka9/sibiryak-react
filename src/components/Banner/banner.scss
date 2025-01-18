@@ -1,0 +1,58 @@
+@import "../../variables";
+
+.banner {
+  height: 31rem;
+
+  padding: 6rem 4.3rem 5rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: .7rem;
+
+  color: $dark;
+  background-color: $backDefault;
+
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  border-radius: .5rem;
+
+  position: relative;
+
+  .banner__img {
+    width: 100%;
+    height: 100%;
+
+    background: no-repeat top 50% right 35rem / 80%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scale(-1, 1);
+  }
+
+  h1 {
+    color: inherit;
+
+    font-family: "Open Sans", serif;
+    font-size: 3.6rem;
+    font-weight: 700;
+
+    text-transform: uppercase;
+  }
+
+  p {
+    color: inherit;
+
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+
+  a {
+    margin-top: auto;
+
+    color: $main2;
+
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,42 @@
+.banner {
+  height: 31rem;
+  padding: 6rem 4.3rem 5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.7rem;
+  color: #020303;
+  background-color: #E5EFF9;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+.banner .banner__img {
+  width: 100%;
+  height: 100%;
+  background: no-repeat top 50% right 35rem/80%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: scale(-1, 1);
+}
+.banner h1 {
+  color: inherit;
+  font-family: "Open Sans", serif;
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.banner p {
+  color: inherit;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.banner a {
+  margin-top: auto;
+  color: #2F80ED;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=banner.css.map */
